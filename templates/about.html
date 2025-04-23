@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="info-1">
+        <h1>ABOUT US</h1>
+        <p>Our mission is to empower you with personalized and reliable health information. We leverage cutting-edge algorithms and a comprehensive medical database to provide tailored medicine recommendations, helping you make informed decisions about your well-being. We are committed to accuracy, transparency, and user privacy, striving to be your trusted partner in navigating the complexities of healthcare.</p>
+        <button>
+            <h3><a href="/learn">Learn More</a></h3>
+        </button>
+      </div>
+      <div class="pic">
+        <img src="{{ url_for('static', filename='image-3.png') }}" alt="">
+      </div>
+    </div>
+  </body>
+</html>

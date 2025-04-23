@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto';
+}
+
+body{
+    background-color: rgb(165, 212, 227);
+}
+
+.box{
+    height: 660px;  
+    display: flex;
+    background-color: white;
+    margin: 25px;
+    /* padding-bottom: 120px; */
+    border-radius: 30px;
+}
+
+.box1{
+    width: 80%; 
+    height: 500px; 
+    background-color: rgb(163, 229, 255);
+    /* margin: 25px; */
+    border-radius: 5% 0% 133% 0%;
+}
+
+.box1 nav{
+    display: flex;
+}
+
+.box1 nav .logo img{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box1 nav .list ul{
+    display: flex;
+}
+
+.box1 nav .list ul .home{
+    margin-left: 300px;
+}
+
+
+.box1 nav .list ul li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.box1 nav .list ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.box1 nav .list ul li a:hover{
+    color: blue;
+}
+
+.box1 .info h2{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 50px;
+    color: rgb(30, 30, 88);
+    font-weight: 800;
+}
+
+.box1 .info h3{
+    margin-left: 80px;
+    font-size: 50px;
+    color: rgb(30, 30, 88);
+    font-weight: 800;
+}
+
+.box1 .info .line-1{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+
+.box1 .info .line-2{
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.box1 .search{
+    display: flex;
+}
+
+.box1 .text{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.box1 .text input{
+    margin: 30px;
+    padding: 15px;
+    padding-right: 350px;
+    border-radius: 40px;
+    border-color: white;
+    border-style: none;
+    background-color: rgb(236, 225, 225)
+
+}
+
+
+
+.box1 .search button{
+    background-color: rgb(0, 157, 255);
+    padding: 15px 30px;
+    border-radius: 30px;
+    border-style: none;
+    margin: 30px;
+    margin-bottom: 60px;
+    margin-left: -115px;
+}
+
+
+.box1 .search button h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-2{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.box-2 .box2{
+    margin-top: 90px;
+    padding-left: 80px;
+    position: relative;
+}
+
+
+.box-2 .box2{
+    width: 500px;
+    height: 500px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+
+.box2:hover{
+    transform: rotateY(180deg);
+    /* border-radius: 30px; */
+}
+
+.front{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+} 
+
+
+.back{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    background-color: rgb(163, 229, 255);
+    transform: rotateY(180deg);
+} 
+
+.back p{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.box-2 .box2 img{
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+.box-2 .box3{
+    width: 600px;
+    background-color: rgb(0, 157, 255);
+    margin-top: 250px;
+    margin-left: -500px;
+    border-radius: 200% 0px 0px 0px;
+}
+
+
+/* About page desig */
+
+.container{
+    width: 95%;
+    height: 90vh;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+}
+
+.container .info-1{
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.container .info-1 h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container .info-1 p{
+    line-height: 1.5;
+}
+
+.container .info-1 button{
+    margin-top: 25px;
+    margin-left: 5px;
+    border: none;
+}
+
+.container .info-1 button h3{
+    padding: 15px 30px;
+    background: linear-gradient(90deg,rgb(142, 61, 219), rgb(77, 77, 207));
+
+}
+
+.container .info-1 button h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .pic{
+    margin-left: 80px;
+}
+
+.container .pic img{
+    width: 50vw;
+}
+
+/* result page design */
+
+/* .result{
+    background-color: black;
+} */
+
+/* 1 */
+.box-A{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+    border-color: black;
+}
+
+
+.box-A .mini-box-1{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-1:hover{
+    transform: rotateY(180deg);
+}
+
+.front-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-1 h1{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+ 
+.back-1{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-1 p{
+    margin-top: 120px;
+}
+
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-1{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+/* 2 */
+.box-A .mini-box-2{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-2:hover{
+    transform: rotateY(180deg);
+}
+
+.front-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-2 h1{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+ 
+.back-2{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-2 p{
+    margin-top: 120px;
+}
+
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-2{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+/* 3 */
+
+.box-A .mini-box-3{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-3:hover{
+    transform: rotateY(180deg);
+}
+
+.front-3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-3 h1{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+ 
+.back-3{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-3 p{
+    margin-top: 120px;
+}
+
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-3{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+/* 4 */
+
+.box-A .mini-box-4{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-4:hover{
+    transform: rotateY(180deg);
+}
+
+.front-4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-4 h1{
+    margin-top: 135px;
+    margin-left: 80px;
+}
+ 
+.back-4{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-4 p{
+    margin-top: 120px;
+}
+
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-4{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+/* 5 */
+
+.box-A .mini-box-5{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-5:hover{
+    transform: rotateY(180deg);
+}
+
+.front-5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-5 h1{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+ 
+.back-5{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-5 p{
+    margin-top: 120px;
+}
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-5{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+/* 6 */
+
+.box-A .mini-box-6{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+.mini-box-6:hover{
+    transform: rotateY(180deg);
+}
+
+.front-6{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #bcfff9;
+}
+
+.front-6 h1{
+    margin-top: 125px;
+    margin-left: 100px;
+}
+ 
+.back-6{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    /* background-color: red; */
+    transform: rotateY(180deg);
+}
+
+.back-6 p{
+    margin-top: 120px;
+}
+
+.box-B{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 90px;
+}
+
+.box-B .mini-box-6{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    margin: 20px 40px;
+}
+
+

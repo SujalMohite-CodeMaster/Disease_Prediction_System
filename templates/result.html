@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body class="result">
+    <div class="box-A">
+        <div class="mini-box-1">
+            <div class="front-1">
+                <h1>Predicted Disease</h1>
+            </div>
+            <div class="back-1">
+                <p>{{ predicted_disease }}</p>
+            </div>
+        </div>
+
+        <div class="mini-box-2">
+            <div class="front-2">
+                <h1>Description</h1>
+            </div>
+            <div class="back-2">
+                <p>{{ desc }}</p>
+            </div>
+        </div>
+
+        <div class="mini-box-3">
+            <div class="front-3">
+                <h1>Precautions</h1>    
+            </div>
+            <div class="back-3">
+                <p>{{ pre }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-B">
+        <div class="mini-box-4">
+            <div class="front-4">
+                <h1>Medications</h1>
+            </div>
+            <div class="back-4">
+                <p>{{ med }}</p>
+            </div>
+        </div>
+        
+        <div class="mini-box-5">
+            <div class="front-5">
+                <h1>Workout</h1>
+            </div>
+            <div class="back-5">
+                p>{{ wrkout }}</p>
+            </div>
+        </div>
+        
+        <div class="mini-box-6">
+            <div class="front-6">
+                <h1>Diet</h1>
+            </div>
+            <div class="back-6">
+                <p>{{ die }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            <nav>
+                <!-- logo design -->
+                <div class="logo">
+                   <img src="{{ url_for('static', filename='img.png') }}" alt="">
+                </div>
+
+
+                <!-- nav list desing   -->
+                <div class="list">
+                    <ul>
+                        <li class="home"><a href="">Home</a></li>
+                        <li><a href="/about">About us</a></li>
+                        <li><a href="/help">Blog</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="info">
+                <h2>Save time.</h2>
+                <h3>Healthcare online</h3>
+                <p class="line-1">A personalised healthcare services for you</p>
+                    <p class="line-2"></p>
+             </div>
+             <div class="search">
+             <form method="POST" class="text">
+                <!-- <input type="text" placeholder="Enter the"> -->
+                <input type="text" id="symptoms" name="symptoms" required placeholder="Enter your symptoms">
+                <button type="submit">Search</button>
+            </form>
+            <!-- <button>
+                <h3><a href="result.html">Sumbit</a></h3>
+            </button> -->
+            </div>
+        </div>
+    <div class="box-2">
+        <div class="box2">
+            <div class="front">
+                <img src="{{ url_for('static', filename='img-2.png') }}" alt="">
+            </div>
+            <div class="back">
+                <p>Healthcare is essential for maintaining overall well-being, encompassing physical, mental, and social aspects of life. It involves preventive measures like regular exercise, a nutritious diet, and vaccinations to avoid diseases. Good hygiene practices and access to medical care ensure timely treatment of illnesses. Mental health is equally important, supported by stress management and mindfulness. Advances in technology, such as telemedicine, have made healthcare more accessible, improving lives globally. A holistic approach integrates all these aspects for a healthier, more fulfilling lifestyle.
+            </div>
+        </div>
+        <div class="box3">
+
+        </div>
+    </div>      
+    </div>
+</body>
+</html>
